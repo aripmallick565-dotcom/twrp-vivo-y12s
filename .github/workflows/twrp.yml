@@ -1,0 +1,17 @@
+ .github/workflows/twrp.yml
+name: TWRP Recovery Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Build TWRP
+      run: |
+        echo "Starting TWRP build process..."
+        echo "Ready for Vivo Y12s config!"
