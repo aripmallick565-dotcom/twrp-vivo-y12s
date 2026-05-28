@@ -1,4 +1,5 @@
-name: Vivo Y12s Recovery Build
+
+  name: Vivo Y12s Recovery Build
 
 on:
   workflow_dispatch:
